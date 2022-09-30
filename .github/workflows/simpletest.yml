@@ -36,7 +36,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Test with pytest
-        run: |
- #         echo Add other actions to build,
- #         echo test, and deploy your project.
-           pytest -v -s
+        run: pytest -v -s
