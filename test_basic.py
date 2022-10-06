@@ -10,7 +10,7 @@ def test_create_file(tmp_path):
     p.write_text(CONTENT)
     assert p.read_text() == CONTENT
     assert len(list(tmp_path.iterdir())) == 1
-#    assert 0
+#    assert sds
 
 def load_image(image):
     return cv2.imread("ss.png",0)
